@@ -34,9 +34,7 @@ Following are the advantages/benefits and limitations of React
 | 13  | Fails Compile Time	    |   Fails When? - Runtime |
 | 14  | Packaging - Strong	    |   Packaging - Weak |
 
-
 ---
-
 
 ### What do you understand by JSX? Explain it.
 
@@ -68,6 +66,8 @@ var theFacebook = (
 |coding style       |Javascript focussed| html centric|
 |Support            |huge community| Ok|
 
+---
+
 ### What is virtual DOM(VD)
 
 * A VD object is a lightweight copy of dom object. 
@@ -75,9 +75,30 @@ var theFacebook = (
 * A VD can update faster then regular DOM
 * Any change to jsx will update the VD
 
+---
 
 ### What is a state? How to use state?
 
 * State is a JavaScript object that lives inside a component. 
 * Updating the state will cause re-rendering the component
 * It can be used with expression `${}` or pass it down as `props`
+
+---
+
+### What is synthetic events
+It is a wrapper around the browser native event system.
+
+---
+### What do you understand by Controlled vs. Uncontrolled Component? ReactJS Interview Question 
+Controlled component does not have internal state. All states are get through `props`.
+UnControlled component maintains its own internal state.
+
+---
+### How does the React Router work? ReactJS Interview Question 
+It dictates which components should (or should not) render.
+
+---
+### How can you access the currently selected React component in the console?
+`$r`
+
+---
